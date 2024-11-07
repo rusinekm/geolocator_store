@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To setup database please run
+`rails db:create db:migrate`
+and
+`bundle install`
+to add neccessary gems
 
-Things you may want to cover:
+to start the server run 
+`rails server`
 
-* Ruby version
+Available enndpoints are:
 
-* System dependencies
+get localhost:3000/geolocations/
+post localhost:3000/geolocations/
+and delete localhost:3000/geolocations/
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+all of which usre param with key 'ip' for variable
